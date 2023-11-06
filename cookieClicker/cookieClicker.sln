@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cookieClicker", "cookieClicker\cookieClicker.csproj", "{36F4DC15-F5BF-45C9-B537-AD1EF3DB290D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36F4DC15-F5BF-45C9-B537-AD1EF3DB290D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F4DC15-F5BF-45C9-B537-AD1EF3DB290D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F4DC15-F5BF-45C9-B537-AD1EF3DB290D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F4DC15-F5BF-45C9-B537-AD1EF3DB290D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9E4F90A-A6C8-490D-94EF-1153A87A5C44}
+	EndGlobalSection
+EndGlobal
