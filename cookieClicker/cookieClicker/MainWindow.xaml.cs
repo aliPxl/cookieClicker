@@ -20,9 +20,23 @@ namespace cookieClicker
     /// </summary>
     public partial class MainWindow : Window
     {
+        //initialize int variable voor het bijhouden,tonen en optellen van aantal klicks 
+        int koekjesAantal;
         public MainWindow()
         {
             InitializeComponent();
+            Mw.Title = $"score:{koekjesAantal}";
+            lblScore.Content = $"score: {koekjesAantal}";
+        }
+
+        private void imgKoekje_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void ImgKoekje_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+
         }
     }
 }

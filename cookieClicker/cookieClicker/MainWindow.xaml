@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:cookieClicker"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="800" Name="Mw">
+    
+    <Window.Background>
+        <ImageBrush ImageSource="background.png"></ImageBrush>
+    </Window.Background>
         
-    </Grid>
+        
+    <DockPanel>
+     
+        <StackPanel>
+            <Label Name="lblScore" Content="Score: 0" FontSize="30" HorizontalAlignment="Center" Foreground="Beige"></Label>
+                
+                <Image x:Name="ImgKoekje" 
+                       Source="koekje.png"
+                       Width="70" Height="70"
+                       MouseDown="ImgKoekje_MouseDown"
+                       MouseUp="ImgKoekje_MouseUp"
+                ></Image>
+          
+        </StackPanel>
+    </DockPanel>
 </Window>
