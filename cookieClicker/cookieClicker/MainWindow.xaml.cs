@@ -25,14 +25,18 @@ namespace cookieClicker
         public MainWindow()
         {
             InitializeComponent();
-            Mw.Title = $"score:{koekjesAantal}";
-            lblScore.Content = $"score: {koekjesAantal}";
+            toonAantalKoekjes(koekjesAantal);
         }
-
+        public void toonAantalKoekjes(int aantal)
+        {
+            Mw.Title = $"score:{aantal}";
+            lblScore.Content = $"score: {aantal}";
+        }
         private void ImgKoekje_MouseDown(object sender, MouseButtonEventArgs e)
         {
             ImgKoekje.Width = 50;
-            
+            koekjesAantal++;
+            toonAantalKoekjes(koekjesAantal);
         }
 
         private void ImgKoekje_MouseUp(object sender, MouseButtonEventArgs e)
