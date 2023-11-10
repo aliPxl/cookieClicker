@@ -29,14 +29,16 @@ namespace cookieClicker
             lblScore.Content = $"score: {koekjesAantal}";
         }
 
-        private void imgKoekje_MouseDown(object sender, MouseButtonEventArgs e)
+        private void ImgKoekje_MouseDown(object sender, MouseButtonEventArgs e)
         {
-
+            ImgKoekje.Width = 50;
+            
         }
 
         private void ImgKoekje_MouseUp(object sender, MouseButtonEventArgs e)
         {
-
+            ImgKoekje.Width = 70;
+           
         }
     }
 }
