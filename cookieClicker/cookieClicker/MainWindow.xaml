@@ -23,7 +23,11 @@
                        MouseDown="ImgKoekje_MouseDown"
                        MouseUp="ImgKoekje_MouseUp"
                 ></Image>
-          
+            <Button x:Name="cursor" Click="invest_Click" Width="70" Height="20" Content="cursor" IsEnabled="False"></Button>
+            <Button x:Name="grandma" Click="invest_Click" Width="70" Height="20" Content="grandma" IsEnabled="False"></Button>
+            <Button x:Name="farm" Click="invest_Click" Width="70" Height="20" Content="farm" IsEnabled="False"></Button>
+            <Button x:Name="mine" Click="invest_Click" Width="70" Height="20" Content="mine" IsEnabled="False"></Button>
+            <Button x:Name="factory" Click="invest_Click" Width="70" Height="20" Content="factory" IsEnabled="False"></Button>
         </StackPanel>
     </DockPanel>
 </Window>
