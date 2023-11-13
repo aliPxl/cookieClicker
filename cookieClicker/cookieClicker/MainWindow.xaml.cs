@@ -44,5 +44,11 @@ namespace cookieClicker
             ImgKoekje.Width = 70;
            
         }
+
+        private void invest_MouseLeave(object sender, MouseEventArgs e)
+        {
+            ImgKoekje.Width = 70;
+        }
+
     }
 }
